@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maromar Confecções</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Navbar-->
+
+
+    <div class="navbar show-menu">
+        <div class="header-inner-content">
+            <h1 class="Logo">Maromar</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Pagina Inicial</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <img src="./Imagens/Carrinho.png" alt="Botão do Carrinho">
+                <img src="./Imagens/menu.png" class="menu-button" alt="Botão de menu">
+            </div>
+        </div>
+    </div>
+
+
+    <!--Form-->
+    <div class="box">
+      <form action="">
+        <fieldset>
+            <legend><b>Formulário para Contato</b></legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" id="nome" name="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome Completo:</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" id="email" name="email" class="inputUser" required>
+                <label for="email" class="labelInput">Email:</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="tel" id="telefone" name="telefone" class="inputUser" required>
+                <label for="telefone" class="labelInput">Telefone:</label>
+            </div>
+            <br><br>
+            <p>Sexo:</p>
+            <br>
+            <input type="radio" id="feminino" name="genero" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" id="outro" name="genero" value="outro" required>
+            <label for="outro">Outro</label>
+            <br><br>
+            <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+            <input type="date" id="data_nascimento" name="data_nascimento" required>
+            <br><br><br>
+            <div class="inputBox">
+                <input type="text" id="cidade" name="cidade" class="inputUser" required>
+                <label for="cidade" class="labelInput">Cidade:</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" id="estado" name="estado" class="inputUser" required>
+                <label for="estado" class="labelInput">Estado:</label>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" id="endereço" name="endereço" class="inputUser" required>
+                <label for="endereço" class="labelInput">Endereço:</label>
+            </div>
+            <br><br>
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+      </form>
+    </div>
+
+
+    <!--MapBox-->
+
+    <div class="mapBox">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.2933663430003!2d-35.961133989542525!3d-8.273571783130453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98a332a77406d%3A0x6e50de598387b5c8!2sR.%20Bartolomeu%20Anacleto%2C%20521%20-%20Salgado%2C%20Caruaru%20-%20PE%2C%2055018-320!5e0!3m2!1spt-BR!2sbr!4v1699812159362!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!--Footer-->
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <h1>Maromar</h1>
+                <p>Vestindo sua pequena com amor e carinho.</p>
+    
+                <div class="footer-social-media">
+                    <a href="https://www.instagram.com/maromarkids/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="footer-link" id="instagram" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="https://www.facebook.com" class="footer-link" id="facebook" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+    
+                    <a href="https://web.whatsapp.com" class="footer-link" id="whatsapp" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <ul class="footer-list">
+                <li>
+                    <h2><b>Sobre Nós</b></h2>
+                </li>
+                <li>
+                    <a href="./sobre.html" class="footer-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="./contato.html" class="footer-link">Contato</a>
+                </li>
+            </ul>
+    
+            <ul class="footer-list">
+                <li>
+                    <h2><b>Produtos</b></h2>
+                </li>
+                <li>
+                    <a href="./Produtos.html" class="footer-link">Catálogo</a>
+                </li>
+            </ul>
+    
+            <div class="footer-subscribe">
+                <h2><b>Inscreva-se</b></h2>
+    
+                <p>
+                 coloque seu e-mail para ser notificado sobre nossas novidades!
+    
+                </p>
+    
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Example@gmail.com">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-copyright">
+            &#169
+            2023. Todos os direitos reservados
+        </div>
+       </footer>
+<script src="./Scripts/Scripts.js"></script>
+</body>
+</html>
